@@ -1,13 +1,12 @@
 package com.donzelitos.elastikuzao.service;
 
 import com.donzelitos.elastikuzao.model.Kijo;
+import org.springframework.data.domain.Page;
 
-import java.util.List;
 
-@
 public interface KijoService {
 
     Kijo save(Kijo kijo);
-    List<Kijo> findByEquipment(String Equipment);
+    Page<Kijo> findByEquipment(String Equipment);
 
 }

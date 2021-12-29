@@ -4,10 +4,8 @@ package com.donzelitos.elastikuzao.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 
-@Document(indexName = "kijins")
+@Document(indexName = "kijos")
 public class Kijo {
-
-
 
     public String getUuid() {
         return uuid;

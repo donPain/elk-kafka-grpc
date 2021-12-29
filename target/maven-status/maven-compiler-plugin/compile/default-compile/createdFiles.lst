@@ -1,0 +1,7 @@
+com/donzelitos/elastikuzao/config/EsConfig.class
+com/donzelitos/elastikuzao/ElastikuzaoApplication.class
+com/donzelitos/elastikuzao/service/KijoServiceImpl.class
+com/donzelitos/elastikuzao/config/ElasticsearchClientConfig.class
+com/donzelitos/elastikuzao/service/KijoService.class
+com/donzelitos/elastikuzao/repository/KijoRepository.class
+com/donzelitos/elastikuzao/model/Kijo.class

@@ -3,9 +3,9 @@ package com.donzelitos.elastikuzao.service;
 import com.donzelitos.elastikuzao.model.Kijo;
 import com.donzelitos.elastikuzao.repository.KijoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class KijoServiceImpl implements KijoService{
@@ -24,7 +24,7 @@ public class KijoServiceImpl implements KijoService{
     }
 
     @Override
-    public List<Kijo> findByEquipment(String Equipment) {
-        return kijoRepository.findByEquipment(Equipment);
+    public Page<Kijo> findByEquipment(String Equipment) {
+        return kijoRepository.findByEquipment(Equipment, PageRequest.of(0, 10));
     }
 }

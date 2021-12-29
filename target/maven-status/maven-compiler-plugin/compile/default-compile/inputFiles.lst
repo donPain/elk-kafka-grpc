@@ -1,0 +1,7 @@
+/home/eduardo/projects/gitHub_reps/elk-kafka-grpc/src/main/java/com/donzelitos/elastikuzao/model/Kijo.java
+/home/eduardo/projects/gitHub_reps/elk-kafka-grpc/src/main/java/com/donzelitos/elastikuzao/config/EsConfig.java
+/home/eduardo/projects/gitHub_reps/elk-kafka-grpc/src/main/java/com/donzelitos/elastikuzao/ElastikuzaoApplication.java
+/home/eduardo/projects/gitHub_reps/elk-kafka-grpc/src/main/java/com/donzelitos/elastikuzao/repository/KijoRepository.java
+/home/eduardo/projects/gitHub_reps/elk-kafka-grpc/src/main/java/com/donzelitos/elastikuzao/service/KijoService.java
+/home/eduardo/projects/gitHub_reps/elk-kafka-grpc/src/main/java/com/donzelitos/elastikuzao/service/KijoServiceImpl.java
+/home/eduardo/projects/gitHub_reps/elk-kafka-grpc/src/main/java/com/donzelitos/elastikuzao/config/ElasticsearchClientConfig.java
